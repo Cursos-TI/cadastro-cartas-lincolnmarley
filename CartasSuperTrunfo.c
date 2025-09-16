@@ -9,7 +9,7 @@
 
     // Área para definição das variáveis para armazenar as propriedades das cidades
 int main() {
-  printf("DESAFIO SUPER TRUNFO ");
+  printf("DESAFIO SUPER TRUNFO \n");
 
 
     char Brasil, EUA;
@@ -22,9 +22,9 @@ int main() {
     
   // Área para entrada de dados
 
-  printf("Vamos começar agora a inserir os dados.");
+  printf("Vamos começar agora a inserir os dados. \n");
 
-    printf("Brasil \n");
+    printf("O pais será o Brasil \n");
     
     printf("Digite os 8 estados do pais. \n");
     printf("Primeiro estado: \n");
