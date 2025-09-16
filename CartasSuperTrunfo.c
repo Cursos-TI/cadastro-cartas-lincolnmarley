@@ -13,13 +13,13 @@ int main() {
 
 
     char Brasil, EUA;
-    char A,B,C,D,E,F,G,H;
+    char ceara, saoPaulo, minasGerais, bahia, para, amazonas, rioDeJaneiro, rioGrandeDoSul;
     char C1[50], C2[50], C3[50], C4[50];
     int populacao;
     float area;
     float pib;
     int pontosturisticos;
-    
+   
   // Área para entrada de dados
 
   printf("Vamos começar agora a inserir os dados. \n");
@@ -28,11 +28,17 @@ int main() {
     
     printf("Digite os 8 estados do pais. \n");
     printf("Primeiro estado: \n");
-    scanf(" %c", &A );
-    printf("Digite as 4 cidades do estado %c", A);
-    scanf("%c %c %c %c",&C1, &C2,&C3,&C4);
+    scanf(" %c", &ceara );
+    printf("Digite as 4 cidades do estado %c\n", ceara );  
+    scanf("%c",&C1);
+    
+    scanf("%c",&C2);
+    
+    scanf("%c",&C3);
+   
+    scanf("%c",&C4);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C1);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C1);
     printf("População:  ");
     scanf("%d", &populacao);
     printf("Área: ");
@@ -42,7 +48,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C2);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C2);
     printf("População:  ");
     scanf("%d", &populacao);
     printf("Área: ");
@@ -52,7 +58,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C3);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C3);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -62,7 +68,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C4);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C4);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -73,11 +79,14 @@ int main() {
     scanf("%d", &pontosturisticos);
 
     printf("Segundo estado: \n");
-    scanf("%c",&B );
-    printf("Digite as 4 cidades do estado %c", B);
-    scanf("%c",&C1 , &C2 , &C3 , &C4 );
+    scanf(" %c", &saoPaulo );
+    printf("Digite as 4 cidades do estado %c\n", saoPaulo);
+    scanf(" %c", &C1);
+    scanf(" %c", &C2);
+    scanf(" %c", &C3);
+    scanf(" %c", &C4);  scanf("%c",&C1 , &C2 , &C3 , &C4 );
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C1);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C1);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -87,7 +96,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C2);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C2);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -97,7 +106,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C3);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C3);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -107,7 +116,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C4);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C4);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -118,11 +127,14 @@ int main() {
     scanf("%d", &pontosturisticos);
 
     printf("Terceiro estado: \n");
-    scanf("%c",&C );
-    printf("Digite as 4 cidades do estado %c", C);
-    scanf("%c",&C1 , &C2 , &C3 , &C4 );
+    scanf(" %c", &minasGerais );
+    printf("Digite as 4 cidades do estado %c\n", minasGerais);
+    scanf(" %c", &C1);
+    scanf(" %c", &C2);
+    scanf(" %c", &C3);
+    scanf(" %c", &C4);  scanf("%c",&C1 , &C2 , &C3 , &C4 );
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C1);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C1);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -132,7 +144,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C2);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C2);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -142,7 +154,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C3);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C3);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -152,7 +164,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C4);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C4);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -163,11 +175,14 @@ int main() {
     scanf("%d", &pontosturisticos);
 
     printf("Quarto estado: \n");
-    scanf("%c",&D );
-    printf("Digite as 4 cidades do estado %c", D);
-    scanf("%c",&C1 , &C2 , &C3 , &C4 );
+    scanf(" %c", &bahia );
+    printf("Digite as 4 cidades do estado %c\n", bahia);
+    scanf(" %c", &C1);
+    scanf(" %c", &C2);
+    scanf(" %c", &C3);
+    scanf(" %c", &C4);  scanf("%c",&C1 , &C2 , &C3 , &C4 );
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C1);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C1);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -177,7 +192,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C2);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C2);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -187,7 +202,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C3);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C3);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -197,7 +212,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C4);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C4);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -208,11 +223,14 @@ int main() {
     scanf("%d", &pontosturisticos);
 
     printf("Quinto estado: \n");
-    scanf("%c",&E );
-    printf("Digite as 4 cidades do estado %c", E);
-    scanf("%c",&C1 , &C2 , &C3 , &C4 );
+    scanf(" %c", &para );
+    printf("Digite as 4 cidades do estado %c\n", para);
+    scanf(" %c", &C1);
+    scanf(" %c", &C2);
+    scanf(" %c", &C3);
+    scanf(" %c", &C4);  scanf("%c",&C1 , &C2 , &C3 , &C4 );
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C1);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C1);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -222,7 +240,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C2);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C2);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -232,7 +250,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C3);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C3);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -242,7 +260,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C4);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C4);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -253,11 +271,14 @@ int main() {
     scanf("%d", &pontosturisticos);
 
     printf("Sexto estado: \n");
-    scanf("%c",&F );
-    printf("Digite as 4 cidades do estado %c", F);
-    scanf("%c",&C1 , &C2 , &C3 , &C4 );
+    scanf(" %c", &amazonas );
+    printf("Digite as 4 cidades do estado %c\n", amazonas);
+    scanf(" %c", &C1);
+    scanf(" %c", &C2);
+    scanf(" %c", &C3);
+    scanf(" %c", &C4);  scanf("%c",&C1 , &C2 , &C3 , &C4 );
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C1);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C1);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -267,7 +288,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C2);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C2);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -277,7 +298,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C3);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C3);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -287,7 +308,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C4);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C4);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -298,11 +319,14 @@ int main() {
     scanf("%d", &pontosturisticos);
 
     printf("Setimo estado: \n");
-    scanf("%c",&G );
-    printf("Digite as 4 cidades do estado %c", G);
-    scanf("%c",&C1 , &C2 , &C3 , &C4 );
+    scanf(" %c", &rioDeJaneiro );
+    printf("Digite as 4 cidades do estado %c\n", rioDeJaneiro);
+    scanf(" %c", &C1);
+    scanf(" %c", &C2);
+    scanf(" %c", &C3);
+    scanf(" %c", &C4);  scanf("%c",&C1 , &C2 , &C3 , &C4 );
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C1);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c\n ", C1);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -312,7 +336,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C2);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C2);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -322,7 +346,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C3);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C3);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -332,7 +356,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C4);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C4);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -343,11 +367,14 @@ int main() {
     scanf("%d", &pontosturisticos);
 
     printf("Oitavo estado: \n");
-    scanf("%c",&H );
-    printf("Digite as 4 cidades do estado %c", H);
-    scanf("%c",&C1 , &C2 , &C3 , &C4 );
+    scanf(" %c", &rioGrandeDoSul );
+    printf("Digite as 4 cidades do estado %c\n", rioGrandeDoSul);
+    scanf(" %c", &C1);
+    scanf(" %c", &C2);
+    scanf(" %c", &C3);
+    scanf(" %c", &C4);  scanf("%c",&C1 , &C2 , &C3 , &C4 );
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C1);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C1);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -357,7 +384,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C2);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C2);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -367,7 +394,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C3);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C3);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
@@ -377,7 +404,7 @@ int main() {
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c", C4);
+    printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C4);
     printf("População:  ");
     scanf("%d", &populacao );
     printf("Área: ");
