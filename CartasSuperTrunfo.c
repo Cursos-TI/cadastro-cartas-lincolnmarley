@@ -26,17 +26,22 @@ int main() {
 
     printf("O pais será o Brasil \n");
     
-    printf("Digite os 8 estados do pais. \n");
-    printf("Primeiro estado: \n");
-    scanf(" %c", &ceara );
-    printf("Digite as 4 cidades do estado %c\n", ceara );  
-    scanf("%c",&C1);
+    printf("O primeiro estado é o Ceará. \n");
     
-    scanf("%c",&C2);
     
-    scanf("%c",&C3);
-   
-    scanf("%c",&C4);
+    printf("Digite as 4 cidades do estado %c\n", ceara);
+
+printf("Cidade 1: ");
+scanf(" %49[^\n]", C1);
+
+printf("Cidade 2: ");
+scanf(" %49[^\n]", C2);
+
+printf("Cidade 3: ");
+scanf(" %49[^\n]", C3);
+
+printf("Cidade 4: ");
+scanf(" %49[^\n]", C4);forta
 
     printf("Qual a população, área, PIB e número de pontos turisticos da cidade %c \n", C1);
     printf("População:  ");
