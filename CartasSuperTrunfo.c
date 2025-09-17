@@ -1,5 +1,3 @@
-
-
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
@@ -12,9 +10,11 @@ int main() {
   printf("DESAFIO SUPER TRUNFO \n");
 
     // NOMES DOS ESTADOS
-    char A[] = "Ceará", B[] = "São Paulo", C[] = "Minas Gerais", D[] = "Bahia", E[] = "Pará", F[] = "Amazonas", G[] = "Rio de Janeiro", H[] = "Rio Grande do Sul";
+    char A, B, C, D, E, F, G, H;
     // CODIGOS DAS CARTAS
-    char A01[50], A02[50], A03[50], A04[50], B01[50], B02[50], B03[50], B04[50], C01[50], C02[50], C03[50], C04[50], D01[50], D02[50], D03[50], D04[50], E01[50], E02[50], E03[50], E04[50], F01[50], F02[50], F03[50], F04[50], G01[50], G02[50], G03[50], G04[50], H01[50], H02[50], H03[50], H04[50];
+    char A01[50], A02[50], A03[50], A04[50], B01[50], B02[50], B03[50], B04[50],C01[50], C02[50], C03[50], C04[50], D01[50], D02[50], D03[50], D04[50],
+         E01[50], E02[50], E03[50], E04[50], F01[50], F02[50], F03[50], F04[50],
+         G01[50], G02[50], G03[50], G04[50], H01[50], H02[50], H03[50], H04[50];
     // NOMES DAS CIDADES
     char C1[50], C2[50], C3[50], C4[50];
     int populacao;
