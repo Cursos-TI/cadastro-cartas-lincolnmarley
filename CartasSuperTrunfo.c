@@ -7,13 +7,14 @@
 
     // Área para definição das variáveis para armazenar as propriedades das cidades
 int main() {
+
   printf("DESAFIO SUPER TRUNFO \n");
 
     // NOMES DOS ESTADOS
     char A[50], B[50], C[50], D[50], E[50], F[50], G[50], H[50];
     // CODIGOS DAS CARTAS
-    char A01[50] = A01, A02[50] = A02, A03[50] = A03, A04[50] = A04,
-         B01[50] = B01, B02[50] = B02, B03[50] = B03, B04[50] = B04;
+    char A01[50] = "A01", A02[50] = "A02", A03[50] = "A03", A04[50] = "A04",
+         B01[50] = "B01", B02[50] = "B02", B03[50] = "B03", B04[50] = "B04";
     // NOMES DAS CIDADES
     char C1[50], C2[50], C3[50], C4[50];
     int populacao;
@@ -21,7 +22,7 @@ int main() {
     float pib;
     int pontosturisticos;
    
-  // Área para entrada de dados
+  // Área para entrada de dados do primeiro estado
 
 printf("Vamos começar agora a inserir os dados. \n");
 
@@ -81,9 +82,48 @@ printf("Digite as 4 cidades do estado %s.\n ", A);
     printf("PIB: \n");
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
-    scanf("%f", &pontosturisticos);
+    scanf("%d", &pontosturisticos);
 
-        
+// Área para exibição dos dados de cada carta criada no primeiro estado
+
+    printf("Carta 1:\n");
+printf("Estado: %s \n", A);
+printf("Código: %s \n", A01);
+printf("Nome da Cidade: %s \n", C1);
+printf("População: %d \n", populacao);
+printf("Área: %f \n", area);
+printf("PIB: %f \n", pib);
+printf("Número de pontos turísticos: %d \n", pontosturisticos);
+
+printf("Carta 2:\n");
+printf("Estado: %s \n", A);
+printf("Código: %s \n", A02);
+printf("Nome da Cidade: %s \n", C2);
+printf("População: %d \n", populacao);
+printf("Área: %f \n", area);
+printf("PIB: %f \n", pib);
+printf("Número de pontos turísticos: %d \n", pontosturisticos);
+
+printf("Carta 3:\n");
+printf("Estado: %s \n", A);
+printf("Código: %s \n", A03);
+printf("Nome da Cidade: %s \n", C3);
+printf("População: %d \n", populacao);
+printf("Área: %f \n", area);
+printf("PIB: %f \n", pib);
+printf("Número de pontos turísticos: %d \n", pontosturisticos); 
+
+printf("Carta 4:\n");
+printf("Estado: %s \n", A);
+printf("Código: %s \n", A04);
+printf("Nome da Cidade: %s \n", C4);
+printf("População: %d \n", populacao);
+printf("Área: %f \n", area);
+printf("PIB: %f \n", pib);
+printf("Número de pontos turísticos: %d \n", pontosturisticos);
+
+// Área para entrada de dados do segundo estado    
+
 printf("Digite o segundo estado.\n");
 scanf(" %49s", B);    
     
@@ -139,47 +179,11 @@ printf("Digite as 4 cidades do estado %s.\n ", B);
     printf("PIB: \n");
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
-    scanf("%f", &pontosturisticos);    
+    scanf("%d", &pontosturisticos);    
   
   printf("Cartas cadastradas com sucesso!\n");  
 
-  // Área para exibição dos dados de cada carta criada
-
-printf("Carta 1:\n");
-printf("Estado: %s \n", A);
-printf("Código: %s \n", A01);
-printf("Nome da Cidade: %s \n", C1);
-printf("População: %d \n", populacao);
-printf("Área: %f \n", area);
-printf("PIB: %f \n", pib);
-printf("Número de pontos turísticos: %d \n", pontosturisticos);
-
-printf("Carta 2:\n");
-printf("Estado: %s \n", A);
-printf("Código: %s \n", A02);
-printf("Nome da Cidade: %s \n", C2);
-printf("População: %d \n", populacao);
-printf("Área: %f \n", area);
-printf("PIB: %f \n", pib);
-printf("Número de pontos turísticos: %d \n", pontosturisticos);
-
-printf("Carta 3:\n");
-printf("Estado: %s \n", A);
-printf("Código: %s \n", A03);
-printf("Nome da Cidade: %s \n", C3);
-printf("População: %d \n", populacao);
-printf("Área: %f \n", area);
-printf("PIB: %f \n", pib);
-printf("Número de pontos turísticos: %d \n", pontosturisticos); 
-
-printf("Carta 4:\n");
-printf("Estado: %s \n", A);
-printf("Código: %s \n", A04);
-printf("Nome da Cidade: %s \n", C4);
-printf("População: %d \n", populacao);
-printf("Área: %f \n", area);
-printf("PIB: %f \n", pib);
-printf("Número de pontos turísticos: %d \n", pontosturisticos);
+  // Área para exibição dos dados de cada carta criada no segundo estado
 
 printf("Carta 5:\n");
 printf("Estado: %s \n", B);
