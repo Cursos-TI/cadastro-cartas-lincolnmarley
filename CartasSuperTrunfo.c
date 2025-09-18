@@ -21,6 +21,8 @@ int main() {
     float area;
     float pib;
     int pontosturisticos;
+    float densidadepopulacional;
+    float pibpercapita;
    
   // Área para entrada de dados do primeiro estado
 
@@ -53,6 +55,8 @@ printf("Digite as 4 cidades do estado %s.\n ", A);
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosturisticos);
+    densidadepopulacional = populacao / area;
+    pibpercapita = pib / populacao;
 
     printf("Qual a população, área, PIB e número de pontos turisticos da cidade %s ?\n", C2);
     printf("População:  \n");
@@ -63,6 +67,8 @@ printf("Digite as 4 cidades do estado %s.\n ", A);
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosturisticos);
+    densidadepopulacional = populacao / area;
+    pibpercapita = pib / populacao;
 
     printf("Qual a população, área, PIB e número de pontos turisticos da cidade %s \n", C3);
     printf("População:  \n");
@@ -73,6 +79,8 @@ printf("Digite as 4 cidades do estado %s.\n ", A);
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosturisticos);
+    densidadepopulacional = populacao / area;
+    pibpercapita = pib / populacao;
 
     printf("Qual a população, área, PIB e número de pontos turisticos da cidade %s \n", C4);
     printf("População:  \n");
@@ -83,6 +91,8 @@ printf("Digite as 4 cidades do estado %s.\n ", A);
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosturisticos);
+    densidadepopulacional = populacao / area;
+    pibpercapita = pib / populacao;
 
 // Área para exibição dos dados de cada carta criada no primeiro estado
 
@@ -94,6 +104,8 @@ printf("População: %d \n", populacao);
 printf("Área: %f \n", area);
 printf("PIB: %f \n", pib);
 printf("Número de pontos turísticos: %d \n", pontosturisticos);
+printf("Densidade Populacional: %f \n", densidadepopulacional);
+printf("PIB per capita: %f \n", pibpercapita);
 
 printf("Carta 2:\n");
 printf("Estado: %s \n", A);
@@ -103,6 +115,8 @@ printf("População: %d \n", populacao);
 printf("Área: %f \n", area);
 printf("PIB: %f \n", pib);
 printf("Número de pontos turísticos: %d \n", pontosturisticos);
+printf("Densidade Populacional: %f \n", densidadepopulacional);
+printf("PIB per capita: %f \n", pibpercapita);
 
 printf("Carta 3:\n");
 printf("Estado: %s \n", A);
@@ -111,7 +125,9 @@ printf("Nome da Cidade: %s \n", C3);
 printf("População: %d \n", populacao);
 printf("Área: %f \n", area);
 printf("PIB: %f \n", pib);
-printf("Número de pontos turísticos: %d \n", pontosturisticos); 
+printf("Número de pontos turísticos: %d \n", pontosturisticos);
+printf("Densidade Populacional: %f \n", densidadepopulacional);
+printf("PIB per capita: %f \n", pibpercapita); 
 
 printf("Carta 4:\n");
 printf("Estado: %s \n", A);
@@ -121,6 +137,9 @@ printf("População: %d \n", populacao);
 printf("Área: %f \n", area);
 printf("PIB: %f \n", pib);
 printf("Número de pontos turísticos: %d \n", pontosturisticos);
+printf("Densidade Populacional: %f \n", densidadepopulacional);
+printf("PIB per capita: %f \n", pibpercapita);
+
 
 // Área para entrada de dados do segundo estado    
 
@@ -150,6 +169,8 @@ printf("Digite as 4 cidades do estado %s.\n ", B);
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosturisticos);
+    densidadepopulacional = populacao / area;
+    pibpercapita = pib / populacao;
 
     printf("Qual a população, área, PIB e número de pontos turisticos da cidade %s ?\n", C2);
     printf("População:  \n");
@@ -160,6 +181,8 @@ printf("Digite as 4 cidades do estado %s.\n ", B);
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosturisticos);
+    densidadepopulacional = populacao / area;
+    pibpercapita = pib / populacao;
 
     printf("Qual a população, área, PIB e número de pontos turisticos da cidade %s \n", C3);
     printf("População:  \n");
@@ -170,6 +193,8 @@ printf("Digite as 4 cidades do estado %s.\n ", B);
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosturisticos);
+    densidadepopulacional = populacao / area;
+    pibpercapita = pib / populacao;
 
     printf("Qual a população, área, PIB e número de pontos turisticos da cidade %s \n", C4);
     printf("População:  \n");
@@ -179,7 +204,9 @@ printf("Digite as 4 cidades do estado %s.\n ", B);
     printf("PIB: \n");
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
-    scanf("%d", &pontosturisticos);    
+    scanf("%d", &pontosturisticos);
+    densidadepopulacional = populacao / area;
+    pibpercapita = pib / populacao;    
   
   printf("Cartas cadastradas com sucesso!\n");  
 
@@ -193,6 +220,8 @@ printf("População: %d \n", populacao);
 printf("Área: %f \n", area);
 printf("PIB: %f \n", pib);
 printf("Número de pontos turísticos: %d \n", pontosturisticos);
+printf("Densidade Populacional: %f \n", densidadepopulacional);
+printf("PIB per capita: %f \n", pibpercapita);
 
 printf("Carta 6:\n");
 printf("Estado: %s \n", B);
@@ -202,6 +231,8 @@ printf("População: %d \n", populacao);
 printf("Área: %f \n", area);
 printf("PIB: %f \n", pib);
 printf("Número de pontos turísticos: %d \n", pontosturisticos);
+printf("Densidade Populacional: %f \n", densidadepopulacional);
+printf("PIB per capita: %f \n", pibpercapita);
 
 printf("Carta 7:\n");
 printf("Estado: %s \n", B);
@@ -211,6 +242,8 @@ printf("População: %d \n", populacao);
 printf("Área: %f \n", area);
 printf("PIB: %f \n", pib);
 printf("Número de pontos turísticos: %d \n", pontosturisticos);
+printf("Densidade Populacional: %f \n", densidadepopulacional);
+printf("PIB per capita: %f \n", pibpercapita);
 
 printf("Carta 8:\n");
 printf("Estado: %s \n", B);
@@ -220,6 +253,8 @@ printf("População: %d \n", populacao);
 printf("Área: %f \n", area);
 printf("PIB: %f \n", pib);
 printf("Número de pontos turísticos: %d \n", pontosturisticos);
+printf("Densidade Populacional: %f \n", densidadepopulacional);
+printf("PIB per capita: %f \n", pibpercapita);
 
 
 printf("Estas são as cartas cadastradas.");
