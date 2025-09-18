@@ -67,8 +67,8 @@ printf("Digite as 4 cidades do estado %s.\n ", A);
     scanf("%f", &pib);
     printf("Número de pontos turísticos: \n");
     scanf("%d", &pontosturisticos);
-    densidadepopulacional = populacao / area;
-    pibpercapita = pib / populacao;
+    densidadepopulacional = (float) populacao / area;
+    pibpercapita = (float)pib / populacao;
 
     printf("Qual a população, área, PIB e número de pontos turisticos da cidade %s \n", C3);
     printf("População:  \n");
